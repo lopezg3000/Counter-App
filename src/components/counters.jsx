@@ -11,7 +11,7 @@ class Counters extends Component {
         const { onReset, counters, onIncrement, onDecrement, onDelete } = this.props;
 
         return (
-            <div className="container">
+            <div className="gridContainer">
                 <div className="row pb-2">
                     <div className="col-auto">
                         <button onClick={onReset} className="btn btn-primary btn-sm m-2">
